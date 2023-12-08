@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/scss/base/_fonts.scss">
+    <link rel="stylesheet" href="./src/scss/base/_font.scss">
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Document</title>
 </head>
@@ -85,13 +85,12 @@
         <div class="container">
             <div class="consultation__title">Получите бесплатную консультацию <br>по подбору пульсометра </div>
             <div class="consultation__subtitle">Просто заполните форму заявки <br>и мы перезвоним вам в течении 10 минут</div>
-            <form id="consultation-form" action="#" class="consultation__form">
-                <input type="text" placeholder="Ваше имя">
-                <input type="tel" placeholder="Ваш телефон">
-                <input type="email" placeholder="Ваш E-mail">  
+            <form  action="#" class="form">
+                <input required type="text" placeholder="Ваше имя">
+                <input required type="tel" placeholder="Ваш телефон">
+                <input required type="email" placeholder="Ваш E-mail">  
+                <button class="button button__consultation">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
-            
-            <button class="button button__consultation">заказать кОНСУЛЬТАЦИЮ</button>
         </div>
     </div>
 </body>
